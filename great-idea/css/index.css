@@ -157,27 +157,33 @@ body {
 	margin: 0 auto;
 }
 
-header {
+
+nav {
+	display: flex;
 	text-align: center;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.logo {
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
 }
 
 nav a {
 	color: grey;
 	font-size: 15px;
 	text-decoration: none;
-	display: flex row;
-	padding-right: 40px;
-	padding-top: 30px;
 	text-align: center;
-	margin-bottom: 60px;
-	align-items; center;
 }
 
-.logoGroup {
-	padding-top: 20px;
-	width: 20%;
-	display: flex;
-}
 
 .section1 {
 	display: flex;
@@ -204,7 +210,11 @@ h1 {
 }
 
 .image {
-	display: flex;
+	padding-top: 40px;
+}
+
+.image {
+	padding-top: 40px;
 }
 
 .button {
@@ -220,11 +230,11 @@ h2 {
 }
 
 .features {
-	width: 50%;
+	width: 47%;
 }
 
 .about {
-	width: 50%;
+	width: 47%;
 }
 
 .middle-img {
@@ -271,57 +281,64 @@ hr {
 }
 /* Services Page */
 
-.top {
-	text-justify: left;
+
+
+.containerA {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	text-align: space-between;
+	margin: 30px 0px 30px 0px;
 }
 
+.services2 {
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.services2 h2 {
+	top: 
+}
 .design {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 20px 20px 0px;
+	margin-bottom: 30px;
 }
 .UX {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 0px 20px 20px;
+	margin-bottom: 30px;
 }
 .marketing {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 20px 20px 0px;
+	margin-bottom: 30px;
 }
 .web {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 0px 20px 20px;
+	margin-bottom: 30px;
 }
 .iOS {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 20px 20px 0px;
 }
 .android {
 	border: 1px solid black;
 	padding: 10px;
 	background: lightgray;
 	width: 415px;
-	margin: 20px 0px 20px 20px;
-}
-
-.containerA {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .button {
@@ -349,7 +366,7 @@ hr {
 }
 
 .services-info-img {
-	margin-left: 40px;
+	padding-top: 40px;
 }
 
 .list {
